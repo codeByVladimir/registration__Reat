@@ -1,0 +1,50 @@
+body{
+    font-family: "Fira Code", monospace;
+    font-weight: 400;
+    background-color: #242424;
+    font-size: 16px;
+    color: #7F7F7F;
+}
+.main{
+    margin-block: 150px;
+}
+.container{
+    max-width: 830px;
+    margin: 0px auto;
+    padding: 0px 15px;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 32px;
+    color: #FFFFFF;
+}
+.hero__subtitle{
+    font-size: 18px;
+
+    margin-top: 13px;
+}
+.hero__form-wrapper{
+    margin-top: 50px;
+    margin-bottom: 32px;
+}
+.input__checkbox{
+    display: flex;
+    column-gap: 16px;
+
+}
+.hero__signIn{
+    color: #7F7F7F;
+    margin-top: 84px;
+    position: relative;
+}
+.hero__signIn::after{
+    content: "";
+    position: absolute;
+    top: -32px;
+    left: 0px;
+    width: 100%;
+    border: 1px solid #3D3D3D;
+}
+.signIn{
+    color: #4B72C2;
+}
