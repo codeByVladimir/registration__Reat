@@ -1,9 +1,9 @@
 import React from "react";
 import './button.css';
 
-function Button({title}){
+function Button({title, onClick}){
     return (
-        <button className="hero__button">{title}</button>
+        <button type="submit" onClick={onClick} className="hero__button">{title}</button>
     )
 }
 export default Button;
